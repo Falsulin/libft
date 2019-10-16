@@ -6,21 +6,11 @@
 /*   By: bewalker <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/07 18:24:29 by bewalker          #+#    #+#             */
-/*   Updated: 2019/10/16 14:37:47 by bewalker         ###   ########.fr       */
+/*   Updated: 2019/10/16 15:34:22 by bewalker         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*#include <stdio.h>*/
-
-/*char	*ft_strdup(char *c);
-
-void	*f(t_list *lst)
-{
-	lst->content  = ft_strdup("a");
-	return(NULL);
-}*/
 
 t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {
@@ -35,10 +25,3 @@ t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 	}
 	return (NULL);
 }
-
-/*int		main(void)
-{
-	t_list *lst = NULL;
-
-	lst = ft_lstmap(lst, (void*)f(lst));
-}*/

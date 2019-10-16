@@ -6,15 +6,11 @@
 /*   By: bewalker <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 16:56:41 by bewalker          #+#    #+#             */
-/*   Updated: 2019/10/16 15:04:11 by bewalker         ###   ########.fr       */
+/*   Updated: 2019/10/16 15:48:39 by bewalker         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>*/
 
 char	**ft_strsplit(char const *s, char c)
 {

@@ -6,13 +6,11 @@
 /*   By: bewalker <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/07 13:51:01 by bewalker          #+#    #+#             */
-/*   Updated: 2019/10/10 20:46:22 by bewalker         ###   ########.fr       */
+/*   Updated: 2019/10/16 15:33:29 by bewalker         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*#include <stdio.h>*/
 
 void	ft_lstadd(t_list **alst, t_list *new)
 {

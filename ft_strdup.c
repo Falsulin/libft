@@ -6,15 +6,11 @@
 /*   By: bewalker <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/21 17:22:15 by bewalker          #+#    #+#             */
-/*   Updated: 2019/10/16 14:57:52 by bewalker         ###   ########.fr       */
+/*   Updated: 2019/10/16 15:42:33 by bewalker         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>*/
 
 char	*ft_strdup(const char *s1)
 {
@@ -35,10 +31,3 @@ char	*ft_strdup(const char *s1)
 	dest[i] = '\0';
 	return (dest);
 }
-
-/*int		main(void)
-{
-	char src[] = "bonjour";
-	printf("%s", ft_strdup(src));
-	return (0);
-}*/

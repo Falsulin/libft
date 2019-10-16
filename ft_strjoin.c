@@ -6,15 +6,11 @@
 /*   By: bewalker <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 16:40:42 by bewalker          #+#    #+#             */
-/*   Updated: 2019/10/16 15:06:05 by bewalker         ###   ########.fr       */
+/*   Updated: 2019/10/16 15:44:40 by bewalker         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>*/
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
@@ -42,9 +38,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i + j] = '\0';
 	return (str);
 }
-
-/*int		main(void)
-{
-	printf("%s", ft_strjoin("hello", "world"));
-	return (0);
-}*/

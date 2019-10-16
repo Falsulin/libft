@@ -6,13 +6,11 @@
 /*   By: bewalker <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/09 12:56:48 by bewalker          #+#    #+#             */
-/*   Updated: 2019/10/11 15:10:25 by bewalker         ###   ########.fr       */
+/*   Updated: 2019/10/16 15:35:39 by bewalker         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*#include <stdio.h>*/
 
 int		ft_max(int *tab, unsigned int len)
 {
@@ -28,11 +26,3 @@ int		ft_max(int *tab, unsigned int len)
 	}
 	return (max);
 }
-
-/*int		main(void)
-{
-	int tab[] = {};
-	unsigned int len = 0;
-	printf("%d", ft_max(tab, len));
-	return (0);
-}*/

@@ -6,15 +6,11 @@
 /*   By: bewalker <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/16 14:20:33 by bewalker          #+#    #+#             */
-/*   Updated: 2019/10/15 21:29:50 by bewalker         ###   ########.fr       */
+/*   Updated: 2019/10/16 15:41:23 by bewalker         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*#include <unistd.h>
-#include <stdio.h>
-#include <string.h>*/
 
 int		ft_strcmp(const char *s1, const char *s2)
 {
@@ -25,10 +21,3 @@ int		ft_strcmp(const char *s1, const char *s2)
 		i++;
 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
-
-/*int		main(void)
-{
-	printf("%d\n", ft_strcmp("azc", "abz"));
-	printf("%d", strcmp("azc", "abz"));
-	return (0);
-}*/

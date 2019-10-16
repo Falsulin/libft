@@ -6,13 +6,11 @@
 /*   By: bewalker <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/07 14:14:16 by bewalker          #+#    #+#             */
-/*   Updated: 2019/10/15 23:20:24 by bewalker         ###   ########.fr       */
+/*   Updated: 2019/10/16 15:34:00 by bewalker         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*#include <stdio.h>*/
 
 void	ft_lstiter(t_list *lst, void (*f)(t_list *elem))
 {

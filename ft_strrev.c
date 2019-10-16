@@ -6,14 +6,11 @@
 /*   By: bewalker <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/08 14:49:57 by bewalker          #+#    #+#             */
-/*   Updated: 2019/10/10 20:27:20 by bewalker         ###   ########.fr       */
+/*   Updated: 2019/10/16 15:48:28 by bewalker         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*#include <unistd.h>
-#include <stdio.h>*/
 
 char	*ft_strrev(char *str)
 {
@@ -36,10 +33,3 @@ char	*ft_strrev(char *str)
 	}
 	return (str);
 }
-
-/*int main(void)
-{
-	char str[] = "benjamin";
-	printf("%s", ft_strrev(str));
-	return (0);
-}*/

@@ -6,12 +6,9 @@
 /*   By: bewalker <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/06 12:39:52 by bewalker          #+#    #+#             */
-/*   Updated: 2019/10/15 22:43:48 by bewalker         ###   ########.fr       */
+/*   Updated: 2019/10/16 15:35:20 by bewalker         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*#include <unistd.h>
-#include <stdio.h>*/
 
 #include "libft.h"
 
@@ -38,12 +35,3 @@ t_list	*ft_lstnew(void const *content, size_t content_size)
 	new->next = NULL;
 	return (new);
 }
-
-/*int main()
-{
-	t_list *new = NULL;
-	new = ft_lstnew("dwfdwq", 8);
-	printf("%s\n", new->content);
-	printf("%zu\n", new->content_size);
-	return (0);
-}*/
